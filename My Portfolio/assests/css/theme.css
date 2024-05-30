@@ -1,0 +1,55 @@
+[data-theme="light"] {
+  --color-primary: #07023a;
+  --color-secondary: #e0b021;
+  --color-text: #07023a;
+  --color-background: #f9f9f9;
+}
+[data-theme="dark"] {
+  --color-primary: #e0b021;
+  --color-secondary: #07023a;
+  --color-text: #ddd;
+  --color-background: #07023a;
+}
+
+#Header .themeToggle .themeBtn {
+  border: 2px solid var(--color-text);
+  border-radius: 25px;
+  background-color: var(--color-background);
+  margin-right: 20px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+#Header .themeToggle .themeBtn .themeIcon {
+  position: relative;
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-color: var(--color-text);
+  transition: 0.5s ease;
+}
+.darkMode,
+.lightMode {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  opacity: 0;
+  transition: 1s ease;
+}
+#Header .themeToggle .themeBtn .active {
+  opacity: 1;
+}
+
+/* .Header .themeToggle .themeBtn:hover .themeIcon {
+    transform: translateX(60px) rotate(180deg);
+}
+.Header .themeToggle .themeBtn:hover .themeIcon .darkMode {
+    opacity: 0;
+}
+.Header .themeToggle .themeBtn:hover .themeIcon .lightMode {
+    opacity: 1;
+} */

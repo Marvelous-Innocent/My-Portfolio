@@ -1,0 +1,176 @@
+/* For Mobile Phone */
+@media (max-width: 767px) {
+  section {
+    padding: 40px 40px 20px;
+  }
+
+  /* Header Section */
+  #Header {
+    padding: 15px 30px;
+  }
+  #Header .rightSide .themeToggle {
+    display: none;
+  }
+  #Header nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    width: 100%;
+    height: 100vh;
+  }
+
+  /* Hero Section */
+  #Hero {
+    height: auto;
+    flex-flow: column;
+  }
+  #Hero .profileImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Hero .heroContent {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  #Hero .heroText h2,
+  #Hero .heroText h2 .name {
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+  }
+  #Hero .heroText h2 span img {
+    width: 35px;
+    height: 35px;
+    transform: translateY(5px);
+  }
+  #Hero .heroText .contactBtn button {
+    display: block;
+    margin: 20px auto 0;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #Hero .blob {
+    width: 100%;
+    display: none;
+  }
+
+  /* About Section */
+  #About h2 {
+    text-align: center;
+  }
+  #About .aboutContent {
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  /* Projects Section */
+  #Projects .title {
+    text-align: center;
+  }
+  #Projects .projectContent {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+  }
+  #Projects .projectContent .item {
+    margin: 0 auto 25px;
+    width: 80%;
+    height: 250px;
+  }
+  #Projects .projectContent .item .itemImg img,
+  #Projects .projectContent .item .itemContent {
+    height: 250px;
+  }
+  #Projects .projectContent .item .itemContent h3 {
+    font-size: 20px;
+  }
+  #Projects .projectContent .item .itemContent p,
+  #Projects .projectContent .item .itemContent button {
+    font-size: 13px;
+  }
+
+  /* Skills Section */
+  #Skills .skillsContent .skillsRow4,
+  #Skills .skillsContent .skillsRow3,
+  #Skills .skillsContent .skillsRow2,
+  #Skills .skillsContent .skillsRow1 {
+    flex-wrap: wrap;
+  }
+}
+
+/* For Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Header Section */
+  #Header {
+    padding: 15px 30px;
+  }
+  #Header nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    width: calc(100vw / 2);
+    height: 100vh;
+    transform: translate(100%);
+  }
+
+  /* Hero Section */
+  #Hero {
+    height: auto;
+    flex-flow: column;
+  }
+  #Hero .profileImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #Hero .heroContent {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  #Hero .heroText h2,
+  #Hero .heroText h2 .name {
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+  }
+  #Hero .heroText h2 span img {
+    width: 35px;
+    height: 35px;
+    transform: translateY(5px);
+  }
+  #Hero .heroText .contactBtn button {
+    display: block;
+    margin: 20px auto 0;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #Hero .blob {
+    width: 100%;
+    display: none;
+  }
+
+  /* About Section */
+  #About h2 {
+    text-align: center;
+  }
+  #About .aboutContent {
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  /* Projects Section */
+  #Projects .title {
+    text-align: center;
+  }
+}
+
+/* For Desktop Phones */
+@media (max-width: 1440px) {
+}
