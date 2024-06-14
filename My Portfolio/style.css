@@ -468,7 +468,7 @@ section > h2 span img {
   transform: translateY(10px);
 }
 #Skills .skillsContent {
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
 }
 #Skills .skillsContent .skillsRow4,
@@ -515,19 +515,22 @@ section > h2 span img {
   height: 50px;
   border-radius: 50%;
 }
+
+/* Contact Section */
 #Contact h2 {
   text-align: center;
+  margin-bottom: 50px;
 }
 #Contact h2 span img {
   transform: translateY(10px);
 }
 #Contact .contactContent {
-  width: 100%;
-  padding: 80px;
+  width: 90%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
 }
 #Contact .contactContent > .contactItem {
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
@@ -539,7 +542,7 @@ section > h2 span img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0 auto 40px;
+  margin: 0 40px 0;
   /* padding: 40px; */
   border-radius: 10px;
   width: 250px;

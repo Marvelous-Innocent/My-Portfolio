@@ -3,7 +3,8 @@
   section {
     padding: 40px 40px 20px;
   }
-  #Projects, #Contact {
+  #Projects,
+  #Contact {
     padding: 40px 25px;
   }
 
@@ -97,21 +98,50 @@
   }
 
   /* Skills Section */
+  #Skills {
+    padding: 80px 0px 50px;
+  }
+  #Skills .skillsContent .skillsItem {
+    margin: 0 0 100px 0;
+  }
+  #Skills .skillsContent {
+    padding: 0;
+  }
   #Skills .skillsContent .skillsRow4,
   #Skills .skillsContent .skillsRow3,
   #Skills .skillsContent .skillsRow2,
   #Skills .skillsContent .skillsRow1 {
     flex-wrap: wrap;
+    padding: 0;
+  }
+
+  /* Contact Section */
+  #Contact {
+    padding: 100px 0px 50px;
+  }
+  #Contact .contactContent {
+    flex-direction: column;
+  }
+  #Contact .contactContent > .contactItem {
+    margin: 0 40px 50px;
+  }
+
+  /* Footer Section */
+  #Footer {
+    padding: 0 0px 50px;
+  }
+  #Footer h2 {
+    font-size: 30px;
   }
 }
 
 /* For Tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
-
-  #Projects, #Contact {
+  #Projects,
+  #Contact {
     padding: 50px 25px;
   }
-  
+
   /* Header Section */
   #Header {
     padding: 15px 30px;
@@ -176,6 +206,32 @@
   /* Projects Section */
   #Projects .title {
     text-align: center;
+  }
+
+  /* Skills Section */
+  #Skills {
+    padding: 80px 0px 50px;
+  }
+  #Skills .skillsContent .skillsItem {
+    margin: 0 30px 70px 0;
+  }
+  #Skills .skillsContent {
+    padding: 0;
+  }
+  #Skills .skillsContent .skillsRow4,
+  #Skills .skillsContent .skillsRow3,
+  #Skills .skillsContent .skillsRow2,
+  #Skills .skillsContent .skillsRow1 {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  /* Contact Section */
+  #Contact .contactContent {
+    flex-flow: row wrap;
+  }
+  #Contact .contactContent > .contactItem {
+    margin: 0 40px 50px;
   }
 }
 
